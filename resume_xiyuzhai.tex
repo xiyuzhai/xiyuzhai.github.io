@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Xiyu Zhai} % Your name
+\address{235 Albany Street, Cambridge, MA 02139} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+1)8574724363 \\ xiyuzhai@mit.edu} % Your phone number and email
+\usepackage{bibentry}
+\begin{document}
+\nobibliography{ref}
+  \bibliographystyle{unsrt}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Massachusetts Institute of Techology} \hfill {\em August 2018 - Present} 
+\\ PhD Candidate, EECS Department
+\\ Major: Programming Language for AI
+\\{\bf University of Cambridge}\hfill {\em October 2017 - June 2018} 
+\\ Master of Advanced Studies in Part III Mathematics
+\\ Major: Pure Mathematics and Statistics
+\\ Grades: Distinction
+\\{\bf University of Science and Technology of China} \hfill {\em August 2013 - July 2017} 
+\\ Bachelor of Science
+\\ Major: Pure Mathematics
+\\ Department of Mathematical Sciences\\\hfill { GPA: 4.11/4.3, Rank: \#1 }
+
+\end{rSection}
+
+\begin{rSection}{Research}
+\begin{itemize}
+	\item 
+
+Programming Language for AI.
+
+I'm implementing an programming system (language+analyzer+debugger+visualizer) that enables advanced learning-augmented programming across multiple domains, including pattern recognition in computer vision, learning-based rendering, video compression, RL, theorem proving, etc.
+
+The immediate goal now is to make a very fast, fully interpretable, provably robust classifier for images (which must be different from deep learning in every possible way).
+
+Have started pursuing this goal even before PhD. It started as a theoretical project, but recently it has transformed into a programming language project.
+
+Expect to finish the first round of results before the start of my fifth year of PhD.
+\item Number Theory.
+
+I'm simultaneously interested in Number Theory itself and rewriting existing proofs into machine checkable ones, just like Xena project.
+
+Still learning the basics.
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{Programming Technique}
+\begin{itemize}
+	\item C++. Have experience writing and managing a codebase of 30k+ lines of code. But I know the language well enough to prefer Rust.
+	\item Rust. My major language. I'm use Rust mostly in my PhD project, 16k lines of code.
+	\item Javascript/Typescript. I use it for gui development. I had experience with React but now I'm using Svelte.
+	\item Python. Have experience with it during internship and past immature attempts of my PhD project.
+	\item Haskell. Didn't programmed much in it, but immitate many of its features in my project.
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Publication}
+
+I've not yet finish anything publishable in my PhD project. So the following doesn't reflect much about what I'm doing right now.
+
+\begin{enumerate}
+	\item \bibentry{colt18}
+	\item \bibentry{colt19}
+	\item \bibentry{iclr18}
+	\item \bibentry{nips18}
+	\item \bibentry{icml19}
+	\item \bibentry{arXiv19}
+\end{enumerate}
+\end{rSection}
+\end{document}
